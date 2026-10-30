@@ -1,0 +1,22 @@
+# --- secrets: never commit ---
+key.txt
+*.key
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- local artifacts ---
+*.npz
+*.part
+*.log
+
+# --- nested clone of octocat/Hello-World (tutorial exercise, own .git) ---
+Hello-World/
